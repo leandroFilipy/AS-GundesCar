@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Carro carro = new Carro("GC-1", "Picasso", "Citroen", "Rosa", 2023, 50000.0, 20000);
+        Carro carro = new Carro("GC-1", "ferrari", "Citroen", "Rosa", 2024, 9000000, 20000);
 
-        double ipva = carro.getPeso()/10;
+
         double valorCarro = carro.getPreco();
         double taxa;
 
