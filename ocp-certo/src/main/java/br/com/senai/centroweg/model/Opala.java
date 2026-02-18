@@ -2,14 +2,10 @@ package br.com.senai.centroweg.model;
 
 import br.com.senai.centroweg.model.enums.Anos;
 
-public class Picasso {
+public class Opala {
 
-    double preco = 30000;
-
-    public double calcularPrecoComAno(Carro carro, Anos anos){
+    public double calcularPrecomComAno(Carro carro, Anos anos){
 
         return carro.getPreco() - anos.desconto();
     }
-
-
 }
