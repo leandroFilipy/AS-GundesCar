@@ -2,9 +2,11 @@ package br.com.senai.centroweg.model;
 
 import br.com.senai.centroweg.enums.Anos;
 
-public class Lamborghini {
+public class Toro {
 
-    public double calcularPrecoComAno(Carro carro, Anos anos){
+    double preco = 79000;
+
+    public double calcularPrecoComAno(Carro carro, Anos anos) {
 
         return carro.getPreco() - anos.desconto();
     }

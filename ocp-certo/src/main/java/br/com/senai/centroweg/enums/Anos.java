@@ -1,4 +1,4 @@
-package br.com.senai.centroweg.model.enums;
+package br.com.senai.centroweg.enums;
 
 public enum Anos {
 
